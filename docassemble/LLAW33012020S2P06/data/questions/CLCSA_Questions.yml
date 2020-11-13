@@ -1,9 +1,6 @@
 ---
-features:
-  progress bar: True
----
 # location question
-question: What is your location?
+question: Where are you located?
 subquestion: |
   Please select the location or locations in which you are looking
   for services.

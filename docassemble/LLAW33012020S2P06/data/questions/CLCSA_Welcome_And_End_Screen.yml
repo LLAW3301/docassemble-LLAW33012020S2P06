@@ -8,14 +8,23 @@ include:
 objects:
   - CLCSAlogo: DAStaticFile.using(filename='CLCSAlogo.jpg')
 ---
+features:
+  css: CLCSA_CSS_Website.css
+  debug: True
+  hide standard menu: False
+  progress bar: True
+  show progress bar percentage: True
+---
 mandatory: True
 code: |
   set_parts(logo='<img src="' + CLCSAlogo.url_for() + '" style="height: 50px;">')
 ---
 # Welcome screen
 mandatory: true
-question: Welcome to the Community Legal Centre South Australia service directory. This application will ask a series of questions and provide you with a list of legal services.
+question: CLCSA Service Directory
 subquestion: |
+  
+  ### Welcome to the Community Legal Centre South Australia service directory. This application will ask a series of questions and provide you with a list of legal services.
   
   ### Privacy Statement: 
   > CLCSA aims to protect your data. Your data will not be stored. Data will be deleted at the end of the application. Data is gathered to create a list of services for you. 

@@ -1,0 +1,55 @@
+.navbar{
+    background-color: rgb(25,64,86) !important;
+}
+
+/* This sets the colour of the 'Source' link in the navbar */
+.navbar .nav-item a{
+    color: rgb(0,0,0) !important;
+}
+
+/* dropdown-menu manages the right-hand menu (where we access the Playground
+   amongst other things) */
+.navbar .dropdown-menu{
+    /*  the rgba() function works just like rgb in that
+        it sets a colour.  But the fourth element sets an
+        'alpha' or transaparency value.  Here we are saying
+        to set the transparency to 30%
+    */
+    background-color: rgba(25,64,86,0.3);
+}
+
+/* Sets properties for when hovering over a menu item in the 
+   drop-down menu */
+.dropdown-item:hover{
+    background-color: rgba(255,211,0,0.5);
+}
+
+/* adjusting navbar height */
+.da-pad-for-navbar         { padding-top: 75px; }
+.da-top-for-navbar         { top: 75px;         }
+
+/* Sets the appearnce for the 'Continue' button... */
+.btn-primary{
+  color: rgb(255,255,255);
+  background-color: rgb(25, 64, 86);
+  border-color: rgb(0,0,0);
+}
+
+/* ...and when hovering over it */
+.btn-primary:hover{
+  color: rgb(0,0,0);
+  background-color: rgba(151,201,255,0.3);
+  border-color: rgb(0,0,0);
+}
+/* Appearance of 'Safe-Exit' button*/
+.btn-warning{
+   color: rgb(255,255,255);
+   background-color: rgb(241, 195, 3);
+   border-color: rgb(0,0,0);
+}
+
+/* ...and when hovering over it */
+.btn-warning:hover{
+   color: rgb(255,255,255);
+   background-color: rgb(68,48,148);
+   border-color: rgb(50,50,50);
