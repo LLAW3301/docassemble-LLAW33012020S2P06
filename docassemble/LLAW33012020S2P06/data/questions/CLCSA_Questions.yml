@@ -34,10 +34,13 @@ fields:
     datatype: checkboxes
     choices:
       - Centrelink: Centrelink
-        image: financial
+        image: centrelink
       - Domestic violence: Domestic Violence
+        image: domestic violence
       - Elder Abuse: Elder Abuse
+        image: elder
       - Environmental: Environmental
+        image: enviromental
       - Financial (personal debt, bankrupcy, mortgage): Financial
         image: financial
       - Homelessness: Homelessness
@@ -47,6 +50,7 @@ fields:
       - Mediation (neighbourhood conflicts, disputes): Mediation
         image: mediation
       - Other: Other
+        image: other
     none of the above: False
 
 progress: 40
@@ -65,7 +69,8 @@ fields:
         image: male
       - "Female": Female
         image: female
-      - Other
+      - "Other": other
+        image: other
 
 progress: 60
 action buttons:
@@ -90,17 +95,16 @@ action buttons:
     color: warning
     icon: sign-out-alt
 ---
-image sets:
-  freepik:
-    attribution: |
-      Icon female symbol made by [freepik] https://www.flaticon.com/free-icon/femenine_866954
-      Icon male symbol made by [freepik] https://www.freepik.com/free-icon/gender_805634.htm
-    
-    images: 
-      female: female-symbol.png
-      male: male-symbol.png
-      financial: financial.png
-      mediation: mediation.png
-      homelessness: homelessness.png
-      migration: migration.png
+images: 
+  female: female-symbol.png
+  male: male-symbol.png
+  other: questionmark.png
+  financial: financial.png
+  mediation: mediation.png
+  homelessness: homelessness.png
+  migration: migration.png
+  elder: elder.PNG
+  domestic violence: dv.png
+  enviromental: enviro.PNG
+  centrelink: centrelink.PNG
 ---

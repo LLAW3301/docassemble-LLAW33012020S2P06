@@ -26,7 +26,7 @@ subquestion: |
   
   ### Welcome to the Community Legal Centre South Australia service directory. This application will ask a series of questions and provide you with a list of legal services.
   
-  ### Privacy Statement: 
+  #### **Privacy Statement:**<br>
   > CLCSA aims to protect your data. Your data will not be stored. Data will be deleted at the end of the application. Data is gathered to create a list of services for you. 
   
   > This application should not be used as professional legal advice.
@@ -39,6 +39,7 @@ buttons:
   - I agree: continue
   - I do not agree: exit
     url: http://www.bom.gov.au/sa/forecasts/adelaide.shtml
+    
 ---
 # Final Screen
 mandatory: true

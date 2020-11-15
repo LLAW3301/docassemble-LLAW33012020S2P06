@@ -44,7 +44,7 @@
 /* Appearance of 'Safe-Exit' button*/
 .btn-warning{
    color: rgb(255,255,255);
-   background-color: rgb(241, 195, 3);
+   background-color: rgb(241,195,3);
    border-color: rgb(0,0,0);
 }
 
@@ -53,3 +53,30 @@
    color: rgb(255,255,255);
    background-color: rgb(68,48,148);
    border-color: rgb(50,50,50);
+}
+
+/* font colours and style */
+.row{
+  color: #2c548f;
+  font-family: Arial
+}
+
+.da-subquestion{
+  font-size: 20px;
+}
+
+.daMainQuestion{
+  font-weight: 1100;
+}
+
+.btn-light{
+  color: #2f8291;
+}
+
+h2{
+  color:black;
+}
+
+h3 {
+  text-decoration: underline;
+}
