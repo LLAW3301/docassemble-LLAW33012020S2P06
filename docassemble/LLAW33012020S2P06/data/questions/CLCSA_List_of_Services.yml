@@ -42,8 +42,7 @@ data:
   - name: "[WestSide Lawyers Port Pirie](http://www.westsidelawyers.net)"
     location:
       - West
-      - North
-      - Outback
+      - Mid North
     phone: 
       - (08) 8633 3600
     address:
@@ -61,7 +60,6 @@ data:
   - name: "[Uniting Communities Law Centre](https://www.unitingcommunities.org)"
     location: 
       - Central
-      - Hills 
     phone:
       - 1800 615 677
     address:
@@ -95,7 +93,7 @@ data:
       - Do not wish to say
   - name: "[Limestone Coast Community Justice Centre](https://www.communityjusticesa.org.au)"
     location: 
-      - South
+      - Mid North
     phone: 
       - (08) 8723 1396
     address:
@@ -112,7 +110,7 @@ data:
       - Do not wish to say
   - name: "[Riverland Commuity Justice Centre](https://www.communityjusticesa.org.au)"
     location: 
-      - Riverland
+      - South
     phone: 
       - (08) 8582 4998 
     address: 
@@ -130,6 +128,7 @@ data:
   - name: "[Roma Mitchell Human Rights Volunteer Service](https://www.facebook.com/RomaMitchellCLCInc/)"
     location: 
       - Central
+      - East
     phone:
       - (08) 8362 1199
     address:
@@ -146,9 +145,6 @@ data:
       - Do not wish to say
   - name: "[Environmental Defenders Office](https://www.edo.org.au)"
     location: 
-      - North
-      - South
-      - West
       - East
       - Central
     phone: 
@@ -184,10 +180,6 @@ data:
       - Do not wish to say
   - name: "[Refugee Advocacy Service of South Australia](https://rassa.org.au)"
     location: 
-      - North
-      - South
-      - East
-      - West
       - Central
     phone: 
       - 0401 247 224 Arvin Chang (Project Coordinator and Registered Migration Agent)
@@ -232,11 +224,12 @@ data:
     phone:
       - (08) 8313 5005
     address:
-      - TBA
+      - Not Available (Ring number to inquire)
     legal issue: 
       - Financial
       - Migration
       - Mediation
+      - Other
     gender:
       - Male
       - Female
@@ -309,7 +302,7 @@ data:
     phone: 
       - 1300 655 037
     address: 
-      - Not Available
+      - Not Available (Ring number to inquire)
     legal issue:
       - Other
       - Domestic Violence
@@ -322,11 +315,7 @@ data:
       - Do not wish to say
   - name: "[Family Violence Legal Service Aboriginal Corporation SA](http://www.fvlsac.org.au)"
     location:
-      - North
-      - South
-      - East
-      - West
-      - Central
+      - Mid North
     phone: 
       - Port Augusta Office, Freecall 1800 111 052 or Telephone (08) 8641 2195
       - Port Lincoln Office, Freecall 1800 309 912 or Telephone (08) 8683 1896
