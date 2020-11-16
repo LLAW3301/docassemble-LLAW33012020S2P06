@@ -2,8 +2,7 @@
 # location question
 question: Where are you located?
 subquestion: |
-  Please select the location or locations in which you are looking
-  for services.
+  Please select the location or locations that you are looking for services in.
   
   You may select more than one location.
   
@@ -29,6 +28,10 @@ action buttons:
     icon: sign-out-alt
 ---
 question: What type of legal issue do you have?
+subquestion: |
+  
+  You may select more than one legal issue.
+
 fields:
   - no label: CLCSAlegalissue
     datatype: checkboxes
@@ -79,7 +82,7 @@ action buttons:
     color: warning
     icon: sign-out-alt
 ---
-question: Do you identify as Aboriginal or Torrens Straight Islander?
+question: Do you identify as Aboriginal or Torres Strait Islander?
 fields:
   - no label: CLCSAindigenous
     datatype: radio
