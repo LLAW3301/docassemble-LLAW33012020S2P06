@@ -17,7 +17,7 @@ features:
 ---
 mandatory: True
 code: |
-  set_parts(logo='<img src="' + CLCSAlogo.url_for() + '" style="height: 50px;">')
+  set_parts(logo='<img src="' + CLCSAlogo.url_for() + '" style="height: 70px;">')
 ---
 # Welcome screen
 mandatory: true
@@ -133,6 +133,9 @@ code: |
 
   # Now add each item to the string as a markdown bullet list item
   for an_issue in CLCSA_Services[i]['legal issue']:
+    if an_issue == 'Other':
+      an_issue = 'General Services'
+      
     CLCSAtemp_list = '{}<li>{}</li>'.format(CLCSAtemp_list, an_issue)
 
   CLCSAtemp_list = '{}</ul>'.format(CLCSAtemp_list)
@@ -156,6 +159,9 @@ code: |
 code: |
   CLCSAtemp_list = '<ul>'
   for an_issue in CLCSAlegalissue.true_values():
+    if an_issue == 'Other':
+      an_issue = 'General Services'
+      
     CLCSAtemp_list = '{}<li>{}</li>'.format(CLCSAtemp_list, an_issue)
 
   CLCSAtemp_list = '{}</ul>'.format(CLCSAtemp_list)

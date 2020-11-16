@@ -25,8 +25,8 @@
 }
 
 /* adjusting navbar height */
-.da-pad-for-navbar         { padding-top: 75px; }
-.da-top-for-navbar         { top: 75px;         }
+.da-pad-for-navbar         { padding-top: 100px; }
+.da-top-for-navbar         { top: 100px;         }
 
 /* Sets the appearnce for the 'Continue' button... */
 .btn-primary{
