@@ -1,8 +1,13 @@
-# docassemble.LLAW33012020S2P06
+# Community Legal Centres South Australia
 
-A docassemble extension.
+## Legal Services Directory
 
-## Author
+This application asks users a simple set of questions and provides them with a set of legal services tailored to their particular circumstances
 
-Mark Ferraretto, mark.ferraretto@flinders.edu.au
+## Authors
 
+- Jessica Phuong-Rafferty
+- Andjela Jovic
+- Zahraa Alwan
+- Shae Smith
+- Mattea Romano
