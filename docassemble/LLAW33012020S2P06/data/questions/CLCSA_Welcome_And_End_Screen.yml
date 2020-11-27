@@ -117,6 +117,7 @@ columns:
 ---
 table: CLCSAdisplay_indigenous_list
 rows: CLCSAdisplay_indigenous
+
 columns:
   - Name of Service: |
       row_item['name']
